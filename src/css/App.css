@@ -1,0 +1,97 @@
+.app {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.app-header {
+  height: 60px;
+  text-align: center;
+  box-shadow: 0px 1px 0px #EAEAEA;
+}
+.app-header > i {
+  float: left;
+  line-height: 60px;
+  margin-left: 15px;
+}
+.app-header > p{
+  font-size: 14px;
+  line-height: 60px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+.campaign{
+  margin-top: 20px;
+}
+.campaign .campaign-header{
+  display: flex;
+  padding: 10px;
+}
+.campaign .campaign-header .name{
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.campaign .campaign-header .installs{
+  color: #009330;
+  font-size: 16px;
+  font-weight: 700;
+}
+.campaign .campaign-header .installs > span{
+  font-weight: 400;
+}
+.campaign .campaign-logo{
+  margin-right: 15px;
+}
+.campaign .campaign-logo > img{
+  height: 65px;
+  width: 65px;
+  border-radius: 18px;
+}
+.campaign-body{
+  display: flex;
+  padding: 15px 10px;
+  width: 375px;
+  overflow-x: auto;
+  text-align: center;
+}
+.campaign-body .media-wrapper{
+  width: 35%;
+  margin-right: 10px;
+  display: inline-block;
+}
+.campaign-body .media-wrapper .media-buttons{
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.campaign-body .media-wrapper .media-buttons .copyLink,
+.campaign-body .media-wrapper .media-buttons .download{
+  display: block;
+  border: 1px solid #E0EEF2;
+  box-sizing: border-box;
+  width: 49px;
+  height: 47px;
+  cursor: pointer;
+}
+.campaign-body .media-wrapper .media,
+.video-react .video-react-video{
+  height: 179px;
+  width: 101px;
+}
+.campaign-body .media-wrapper .media-buttons .copyLink,
+.campaign-body .media-wrapper .media-buttons .download > i{
+  line-height: 45px;
+  color: #909A9C;
+}
+.campaign-body .media-wrapper .controls{
+  display: none;
+}
+.video-react-big-play-button,
+.video-react-big-play-button-center{
+  border: none !important;
+  background: none !important;
+}
+.video-react .video-react-control:before, .video-react .video-react-big-play-button:before{
+  color: #FFF;
+  border-radius: 1.5px;
+}
